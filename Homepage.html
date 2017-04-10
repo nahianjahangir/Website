@@ -5,9 +5,13 @@
 
 <head>
 
-
-
 <style>
+
+body {
+	/* src: http://subtlepatterns.com/?p=1045 */
+	background: url('dark_geometric.png');
+}
+
 /* Set the font color to blue and italics */
 h1 {
 	color: blue;
@@ -21,6 +25,22 @@ h2, h3 {
 	font-weight: bold;
 	font-family: Georgia,"Times New Roman", Serif;
 }
+
+#container {
+	width: 1000px;
+	overflow: hidden;
+	margin: 50px auto;
+	background: white;
+}
+
+/*photobanner*/
+ 
+.photobanner {
+	height: 233px;
+	width: 3550px;
+	margin-bottom: 80px;
+}
+
 /* Needed to center this paragraph, finally got to make it work*/
 p {
     font-family: Georgia,"Times New Roman", Serif;
@@ -59,7 +79,7 @@ p {
 	<!-- We will make each image 350px by 233px -->
 
 	<div class = "photobanner" >
-		<img src="https://jpeg.org/images/jpegsystems-home.jpg" alt="Sunset" style="width:350px;height:233px;"/>
+		<img class= "first" src="https://jpeg.org/images/jpegsystems-home.jpg" alt="Sunset" style="width:350px;height:233px;"/>
 		<img src="https://jpeg.org/images/jpegls-home.jpg" alt="Zebras" style="width:350px;height:233px;"/>
 		<img src="https://jpeg.org/images/jpsearch-home.jpg" alt="Purple Mountain" style="width:350px;height:233px;"/>
 	</div>
