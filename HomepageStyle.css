@@ -29,10 +29,28 @@ p {
     margin:100px;
 }
 
+/* Classes go here vvvv */
+
+
+/* First three photos of me*/
+
 .photoslide {
 	padding-left:50px;
 }
 
-#firstpics{
+/* Class of four images representing what I do */
+
+.centericons {
+	height:64px;
+	width:800px;
+	margin:0 auto;
+}
+
+/* Ids go here vvvv */
+
+/* Alter how each of the photos interacts with their space */
+#firstpics {
 	padding:5px;
 }
+
+/* Alter how each of the icons interacts with their space */
