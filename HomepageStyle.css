@@ -43,7 +43,9 @@ p {
 .centericons {
 	height:64px;
 	width:800px;
-	margin:0 auto;
+	margin:50px auto;
+	padding-left:75px;
+
 }
 
 /* Ids go here vvvv */
@@ -54,3 +56,11 @@ p {
 }
 
 /* Alter how each of the icons interacts with their space */
+
+#flaticon {
+	padding-right:150px
+}
+
+#flaticon.last {
+	padding-right:0px;
+}
